@@ -47,7 +47,7 @@ pipeline {
     }
     stage('Update Deployment File') {
         environment {
-            GIT_REPO_NAME = "ArgocdDemo"
+            GIT_REPO_NAME = "ArgocdDemo/java-maven-sonar-argocd-helm-k8s/spring-boot-app-manifests"
             GIT_USER_NAME = "sachin396"
         }
         steps {
